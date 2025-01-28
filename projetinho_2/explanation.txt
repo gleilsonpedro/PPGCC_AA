@@ -1,0 +1,22 @@
+dados.py
+    Conjunto 1 (Normal):
+    Valores balanceados que devem fazer os algoritmos terem resultados muito próximos.
+
+    Conjunto 2 (Pior Caso da Programação Dinâmica):
+    Tempos de entrada: A linha 1 tem uma entrada muito custosa (e2[0] = 100). Isso deve induzir o algoritmo de programação dinâmica a começar na linha 2.
+    Tempos de saída: A linha 2 tem uma saída curta (x2[1] = 1). Isso também deve induzir o algoritmo de programação dinâmica a terminar na linha 2, mesmo que esse não seja o melhor caminho.
+    Tempos de estação: Tempos de estações alternados entre linhas, para dar uma impressão de que as linhas são equivalentes no começo, mas depois fica claro que a linha 1 é melhor.
+    O algoritmo de programação dinâmica deve ter um tempo pior comparado com o guloso. O guloso deve dar um resultado próximo ao melhor tempo possivel, que também deve ser o resultado do algoritmo da força bruta.
+
+    Conjunto 3 (Pior Caso do Guloso):
+    Tempos de estação alternados: As estações alternam entre tempos muito grandes numa linha e muito pequenos na outra. O algoritmo guloso fará várias mudanças de linha, mas com isso não encontra o melhor resultado final.
+    Tempos de troca: Todos os tempos de troca pequenos.
+    Este cenário fará com que o algoritmo guloso tenha um tempo muito maior do que a programação dinâmica e a força bruta.
+
+    Conjunto 4 (Pior Caso da Força Bruta):
+    Número grande de estações: Força bruta sempre encontrará a melhor solução, mas com muitos valores (12 neste caso) o tempo de execução vai ser muito alto. Isso é um "pior caso" pois força o tempo de execução a aumentar muito.
+    Este cenário fará com que o algoritmo de força bruta demore muito para finalizar o processo, demonstrando sua ineficiência.
+
+    Conjunto 5 (Valores Fracionados):
+    Valores fracionados: Os tempos de troca (t5) e os tempos de estações (a5) contêm valores decimais, que são mais representativos de cenários reais, onde os tempos não são necessariamente números inteiros.
+    Esse cenário deve fazer os algoritmos funcionarem com numeros com casas decimais.
