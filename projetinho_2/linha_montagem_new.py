@@ -81,8 +81,8 @@ if __name__ == "__main__":
     tempos_execucao_dinamica_grafico = []
     tempos_execucao_forca_bruta_grafico = []
 
-    # Define o conjunto para o gráfico
-    conjunto_grafico = 1
+    # Define o conjunto de dados para o gráfico
+    conjunto_grafico = 3
     
     for n in tamanhos_n:
         # Obtém dados do conjunto para o gráfico (agora dentro do loop)
