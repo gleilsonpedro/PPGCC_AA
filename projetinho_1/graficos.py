@@ -1,7 +1,0 @@
-plt.figure(figsize=(10, 6))
-plt.bar(n_values, diferencas_por_n, color='red', alpha=0.7)
-plt.xlabel('Tamanho da Entrada (n)')
-plt.ylabel('Número de Diferenças')
-plt.title('Diferenças nos Resultados entre Força Bruta e Divisão e Conquista')
-plt.grid()
-plt.show()

@@ -15,7 +15,7 @@ k = random.randint(100, 200)
 
 ###### atenção para a implementação do n_values, eu prefiro o com escala logaritmica, pela eficiência na distribuição achei melhor.
 
-#n_values = sorted(random.sample(range(10, 1001), k)) #se quiser que termine no mesmo dia não coloque 10.000
+#n_values = sorted(random.sample(range(10, 10001), k)) #se quiser que termine no mesmo dia não coloque 10.000
 
 n_values = sorted(set(map(int, np.logspace(1, 3.5, k))))  # Log scale evita muitos valores 
 
